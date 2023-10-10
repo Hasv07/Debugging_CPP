@@ -1,9 +1,9 @@
 ## Compilation
-##### -run g++ compilation command 
+##### - run g++ compilation command 
 ```cpp
 g++ Matrix.cpp -o Matrix
 ```
-##### -output
+##### - output
 ```cpp
 Matrix 1:
 1 2 3 
@@ -47,17 +47,17 @@ r
   std::vector of length 2, capacity 2 = {0, 0}}
 2- std::vector of length 2, capacity 2 = {std::vector of length 2, capacity 2 = {7, 0}, 
   std::vector of length 2, capacity 2 = {0, 0}}
-3-$4 = std::vector of length 2, capacity 2 = {std::vector of length 2, capacity 2 = {18, 0}, 
+3- $4 = std::vector of length 2, capacity 2 = {std::vector of length 2, capacity 2 = {18, 0}, 
   std::vector of length 2, capacity 2 = {0, 0}}
 
   
 ```
-######*From tracing we notice results.data[0][0] change from 7 (1 x 7) to 18 (2x9) instead of adding cumulative
-#####- bug fixing
+###### *From tracing we notice results.data[0][0] change from 7 (1 x 7) to 18 (2x9) instead of adding cumulative
+##### - bug fixing
 ```cpp 
 43    result.data[i][j] += data[i][k] * other.data[k][j]; //adding + solve it
 ```
-#####- recompile and run again
+##### - recompile and run again
 ```cpp
 g++  Matrix.cpp -o Matrix
 ./Matrix
