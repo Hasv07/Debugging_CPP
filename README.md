@@ -1,9 +1,9 @@
-##Compilation
-#####-run g++ compilation command 
+## Compilation
+##### -run g++ compilation command 
 ```cpp
 g++ Matrix.cpp -o Matrix
 ```
-#####-output
+##### -output
 ```cpp
 Matrix 1:
 1 2 3 
@@ -24,7 +24,7 @@ After Take a look of code I suspect this Line:
 
 ```
 so lets start c++ debugger
-#####- recompile with debugger flag -g
+##### - recompile with debugger flag -g
 ```
 g++ -g Matrix.cpp -o Matrix
 ```
