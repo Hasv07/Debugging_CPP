@@ -17,7 +17,7 @@ Result of multiplication:
 66 72 
 ```
 ###### *The output of multiplication is wrong
-##Debugging
+## Debugging
 After Take a look of code I suspect this Line:
 ```Cpp
 43 result.data[i][j] = data[i][k] * other.data[k][j];
